@@ -5,5 +5,5 @@
 <h3 align="center"><b>  Вот например:</b></h3>
 <ul align="center">
     <li><h4><a href="https://github.com/Wolsya/wolsyanka-test/tree/main/HTML" target="_blank">HTML<a></h4></li>
-    <li><h4><a href="https://github.com/Wolsya/wolsyanka-test/tree/main/C#" target="_blank">C#<a></h4></li>
+    <li><h4><a href="https://github.com/Wolsya/wolsyanka-test/tree/main/C%23" target="_blank">C#<a></h4></li>
 </ul>

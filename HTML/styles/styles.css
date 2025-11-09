@@ -1,7 +1,73 @@
-div {
-	background-color: red;
+body {
+    background-color: #483D8B;
+    margin: 0px;
+    padding: 0px;
 }
-#center-div {
-	height: 400px;
-	width: 400px;
+
+header {
+    background-color: #6A5ACD;
+    padding: 10px;
+    text-align: center;
+}
+
+div.project {
+    width: 300px;
+    height: 550px;
+    text-align: center;
+    background-color: #6A5ACD;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    display: block;
+    align: center;
+}
+
+button {
+    background-color: #32CD32;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 0px;
+    width: 125px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+@media (min-width: 768px) {
+    .projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    p {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 38px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    button {
+        width: 230px;
+        height: 70px;
+        border-radius: 35px;
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 48px;
+    }
 }
